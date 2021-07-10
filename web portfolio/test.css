@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 250px;
+  font-size: xx-large;
+      color: #2c2c2c;    
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+#Movie {
+  width: 45%;
+  font-size: large;
+  height: 475px;
+  margin:30px;
+  margin-right:50px;
+  left: 100%;
+  margin-bottom: 70px;
+  line-height: 2;
+  color: gray;
+  text-align: center;
+}
+
+#MovImg {
+  float: right;
+  margin-top: -550px;
+}
+
+#Sound {
+  width: 45%;
+  font-size: large;
+  height: 475px;
+  margin:30px;
+  margin-right:50px;
+  left: 100%;
+  margin-bottom: 70px;
+  line-height: 2;
+  color: gray;
+  text-align: center;
+}
+#SoundImg {
+  float: right;
+  width: 600px;
+  margin-top: -40%;
+}
+#comix {
+  width: 45%;
+  font-size: large;
+  height: 475px;
+  margin:30px;
+  margin-right:50px;
+  left: 100%;
+  margin-bottom: 70px;
+  line-height: 2;
+  color: gray;
+  text-align: center;
+}
+#ComixImg {
+  float: right;
+  width: 600px;
+  margin-top: -40%;
+}
+
+#mv {
+  font-size: large;
+  height: 475px;
+  margin:30px;
+  margin-right:50px;
+  left: 100%;
+  margin-bottom: 70px;
+  line-height: 2;
+  color: gray;
+  text-align: center;
+}
+#MovieImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: -30%;
+};

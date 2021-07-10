@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<script>
+    $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<body>
+<div class="main" id="sec1">
+<div class="topnav1">
+  <a href="#30MinMovie">30 Minute Movie Festival</a>
+<div class="topnav2">
+    <a href="#SoundProject">Sound Project</a>
+</div>
+<div class="topnav3">
+    <a href="#comixstrip">Comix strip</a>
+</div>
+<div class="topnav4">
+    <a href="#MovieProject">Movie Project</a>
+</div>
+
+<div class="whoami">
+    Maram Al Ashqar
+</div>
+<div class="dis">
+    Hi, my name is Maram. I am a 19-year old student at New York University Abu Dhabi. I am a rising Sophomore planning to major in Interactive Media. I hope to be a journalist one day, and with all sorts of world wide news being circulated through digital means, my major is ideal in leading me down the path of digital production. Although I am only at the very beginning of my journey, showcasing my very first personal website, here are some of the group projects I have worked on this summer. Click on the titles above to explore some of my (very amateur) works! 
+
+</div>
+<a onclick="window.open('https\://www.facebook.com/maram.alashqar.5');" class="fa fa-facebook">
+<a onclick="window.open('https\://www.instagram.com/maram.alashqar/');" class="fa fa-instagram"></a>
+</a><a onclick="window.open('https\://twitter.com/maram_alashqar_?lang=en');" class="fa fa-twitter">
+
+</a>
+</div>
+<br>
+<br/>
+<!-- First Section  -->
+<section id="30MinMovie" style="background-color: #2b2b2b ; height: 550px;">
+
+    <link rel="stylesheet" href="test.css" >
+
+    <h1 hr>
+    30 Minute Movie Festival
+    </h1>
+    <br>
+
+    <p id="Movie">
+        "The thirty minute movie festival was my very first project. In our groups of three, were tasked with filming, editing and producing a short film within the limited time frame fo thirty minutes. We created a short film about flies. The overall story was about what a fly does in a day. The movie was filmed from the point of view of a fly, and it was very interesting to animate the film to make it seem as though the viewer was the fly.
+    
+        The task seemed rather daunting at the start, and I could not fathom how a short film could be produced in such a short amount of time. However once we figured out what the film would be about, the project was ultimately very fun, and I thoroughly enjoyed the process,
+        Click on the image to view the project."
+    </p>
+    <img src="30mmfestival.png" id="MovImg" onclick="window.open('maramalashqar.github.io', '_blank');">
+</section>
+<section id="SoundProject" style="background-color: whitesmoke;">
+    <h1> Sound Project </h1>
+    <br>
+    <p id="Sound">
+        The sound project required us to record original sounds and create a story of some sorts, and compile our work into a website. We chose the theme of time travel, and each member of our group chose their home country to record a segment about, as well as compile pictures of the sites of attraction. This project was very interesting to create and brought back memories of my home country. However as none of us were in our countries during the process of the project, we were limited in terms of filming original content, and recording original sounds in each country, and therefore the experience of time travel was not as authentic as we had hoped. Given the ability to be in Jordan, I would have filmed a video of said sites as I spoke about them, as well as included the background sounds of each place,
+
+        Click on image to view the project.
+    </p><img src="soundproject.png" onclick="window.open('https\://princeampofo.github.io/soundProject/', '_blank');" id="SoundImg">
+
+
+</section>
+
+<section id="comixstrip">
+    <h1>
+        Comix Strip
+    </h1>
+    <br>
+    <p id="comix">
+        The comix strip project required us to tell a story in a creative way on an interactive webpage. I find storytelling very enjoyable, so I especially enjoyed this project. We chose to tell this story though social media posts, which made it slightly challenging as not many people share personal thoughts and day to day struggles on social media. In hindsight, a different method of storytelling might have proved to work better. Nonetheless, editing the appearance of our characters, writing up the captions and choosing the photos was a very fun process,
+        Click on the image to view the project.
+    </p>
+    <img src="comixstrip.png" id="ComixImg" onclick="window.open('https\://fnassar.github.io/tetheredtothepast.github.io/','_blank');">
+</section>
+<section id="MovieProject">
+    <h1>
+        Movie Project
+    </h1>
+    <br>
+    <p id="mv">
+        he movie project was definitely one of my favorite projects. We chose the theme of online school, specifically how to survive it. I believe that the video will speak for itself, but filming it and producing It was entertaining as well as challenging. With my character being the one that was slacking off with online school, I drew inspiration from some of my very first online classes, where I struggled to adapt to this new method of learning. I believe that when a personal touch is added to any work, it instantly becomes more special,
+        don't forget to click the image to view the project (:.
+    </p>
+    <br>
+
+    <img src="movieproject.png" id="MovieImg" onclick="window.open('https\://karishev.github.io/HowToSurviveOnlineSchool/','_blank');">
+</section>
+</div>
+</body>
+
+</html>
